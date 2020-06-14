@@ -1,0 +1,58 @@
+.side_bar{
+  background-color: #253141;
+  height: 100vh;
+  width: 300px;
+  .side_header {
+    height: 100px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box {
+      height: 20px;
+      width: 260px;
+      font-weight: bold;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      &__name {
+        line-height: 20px;
+        font-size: 16px;
+        color: #ffffff;
+      }
+      &__icon {
+        line-height: 20px;
+        display: flex;
+        &__create {
+          margin-left: 5px;
+          .create__btn{
+            color: #ffffff;
+          }
+        }
+        &__edit {
+          margin-left: 5px;
+          .edit__btn{
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  .side_group {
+    background-color: #2f3e51;
+      height: calc(100vh - 100px);
+      padding: 20px 20px 0px;
+      bottom: 0;
+      color: #ffffff;
+    .side_groups {
+      margin-bottom: 40px;
+      &__list {
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+      &__message {
+        font-size: 11px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.main_chat
+  .main_chat_group_tab
+    .main_chat_group_tab__test
+      test
+    .main_chat_group_tab__member
+      Member : masa_
+    = link_to "#" do
+      .main_chat_group_tab__right
+        Edit 
+  .main_chat_list
+    .main_chat_list__title
+      .main_chat_list__title__name
+        masa
+      .main_chat_list__title__time
+        2019/11/20(Wed) 17:43:01
+    .main_chat_list__content
+      おはよう！
+  .main_chat_form
+    .main_chat_form__border
+      .main_chat_form__border__message
+        %input.message{:name => "text", :placeholder => "type a message", :type => "text", :value => ""}/
+      .main_chat_form__border__picture
+        %label{class: "image__btn"}
+          = icon('far', 'image')
+          %input{type: "file"}
+    .main_chat_form__send
+      .main_chat_form__send__input
+        %input.send{:name => "commit", :placeholder => "Send", :type => "submit", value: "send"}/
