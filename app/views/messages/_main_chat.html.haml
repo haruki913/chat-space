@@ -18,11 +18,11 @@
   .main_chat_form
     .main_chat_form__border
       .main_chat_form__border__message
-        %input.message{:name => "text", :placeholder => "type a message", :type => "text", :value => ""}/
+        %input.message{name: "text", placeholder: "type a message", type: "text", value: ""}/
       .main_chat_form__border__picture
         %label{class: "image__btn"}
           = icon('far', 'image')
           %input{type: "file"}
     .main_chat_form__send
       .main_chat_form__send__input
-        %input.send{:name => "commit", :placeholder => "Send", :type => "submit", value: "send"}/
+        %input.send{name: "commit", placeholder: "Send", type: "submit", value: "send"}/
