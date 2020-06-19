@@ -22,13 +22,16 @@
 
     &__right {
       height: 40px;
-      color: #38aef0;
       line-height: 40px;
       padding:0px 20px;
       margin-top: 30px;
       border:1px solid #38aef0;
       position: absolute;
       right: 40px;
+      .edit__btn {
+        color: #38aef0;
+        text-decoration: none;
+      }
     }
   }
   .main_chat_list{
@@ -104,6 +107,7 @@
           width: 100%;
           color: #ffffff;
           padding:0 30px;
+          border:1px solid #38aef0;
         }
       }
     }
