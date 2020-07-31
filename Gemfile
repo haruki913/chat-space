@@ -67,6 +67,7 @@ gem 'font-awesome-sass'
 
 gem 'mini_magick'
 gem 'carrierwave'
+gem 'fog-aws'
 
 group :test, :development do 
   gem 'capybara'
